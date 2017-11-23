@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3BDD828-16AF-494D-9746-706822F12BB7}"
 	ProjectSection(SolutionItems) = preProject
 		..\iCodeGenerator.build = ..\iCodeGenerator.build
@@ -26,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{CF78DCA4-978C-4AD4-A087-576926D6F075}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationManager", "ConfigurationManager\ConfigurationManager.csproj", "{602DADFC-CA31-40A3-A07A-620808DD83BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{82B522FA-56E1-479A-B693-A3C0DE0758D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,5 +101,16 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{864D830B-FA00-4D85-8287-49DD9FB2FE4B} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{952F0DF5-E8F4-4004-BDD0-281AED41842E} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{EF3D506A-3EFF-4838-A48F-BA2302EB7054} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{02199A48-3BF0-4DD5-8EBC-ECE536928F82} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{DDA5EE20-E65B-4390-B0A1-869EE583F28A} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{E46DC87E-56E7-4585-A864-324076C4549C} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{B8DCA4DB-BA7C-4FA9-AFFE-CB8D9FE6CFFC} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{CF78DCA4-978C-4AD4-A087-576926D6F075} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
+		{602DADFC-CA31-40A3-A07A-620808DD83BD} = {82B522FA-56E1-479A-B693-A3C0DE0758D6}
 	EndGlobalSection
 EndGlobal
